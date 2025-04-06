@@ -1,0 +1,7 @@
+.env
+.env.development
+env_development.py
+*.pyc
+Auth/__pycache__/
+log.txt
+__pycache__/

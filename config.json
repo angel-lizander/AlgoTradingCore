@@ -1,0 +1,51 @@
+{
+  "Configuration": {
+    "Telegram": {
+      "allowedChats": [],
+      "botToken": {},
+      "telegramEnable": true
+    }
+  },
+  "Market": {
+    "london": {
+      "openHour": "09",
+      "closeHour": "23"
+    },
+    "newYork": {
+      "openHour": "",
+      "closeHour": ""
+    },
+    "marketOpen": {
+      "openHour": "01",
+      "closeHour": "23"
+    }
+  },
+  "Strategy": {
+    "TestStrategy": {
+      "keyName": "",
+      "timeFrame": "M1",
+      "orderLimit": 1,
+      "startTime": 14,
+      "percentTp": 0.01,
+      "percentSl": 0.0022,
+      "accounts": [
+        {
+          "keyName": "",
+          "volume": 1,
+          "deviation": 2,
+          "symbol": "EURUSD"
+        }
+      ]
+    }
+  },
+  "Accounts": [
+    {
+      "keyName": "",
+      "user": "",
+      "password": "",
+      "server": "",
+      "rootTerminal": "",
+      "description": ""
+    }
+  ]
+}
